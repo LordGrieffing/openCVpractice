@@ -10,8 +10,8 @@ def main():
     cap = cv2.VideoCapture(0)
 
     #Load the emotion monitor model
-    processor = AutoImageProcessor.from_pretrained("chriamue/bird-species-classifier")
-    model = AutoModelForImageClassification.from_pretrained("chriamue/bird-species-classifier")
+    processor = AutoImageProcessor.from_pretrained("dennisjooo/Birds-Classifier-EfficientNetB2")
+    model = AutoModelForImageClassification.from_pretrained("dennisjooo/Birds-Classifier-EfficientNetB2")
 
     
     while True:
